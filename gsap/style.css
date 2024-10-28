@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:  sans-serif;
+}
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: royalblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#box3{
+    height: 300px;
+    width: 300px;
+    background-color: seagreen;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

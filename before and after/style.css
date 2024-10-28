@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:  sans-serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+h1::after{
+    content: 'subscribe krdo';
+    background-color: red;
+    border-radius: 15px;
+    font-size: 35px;
+}
+h1::before{
+    content: 'like krdo';
+    background-color: blue;
+    border-radius: 15px;
+    font-size:35px ;
+}
